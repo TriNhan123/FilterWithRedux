@@ -1,0 +1,44 @@
+{
+    "rows": [
+        {
+            "id":1,
+            "name": "Nhan",
+            "employeeID": "12345",
+            "department": "Operation",
+            "position": "Dev",
+            "email": "nhan.nnt@kyanon.digital"
+        },
+        {
+            "id":2,
+            "name": "Nhan",
+            "employeeID": "12345",
+            "department": "Engineering",
+            "position": "Dev",
+            "email": "nhan.nnt@kyanon.digital"
+        },
+        {
+            "id":3,
+            "name": "Nhan",
+            "employeeID": "12345",
+            "department": "CxO",
+            "position": "Dev",
+            "email": "nhan.nnt@kyanon.digital"
+        },
+        {
+            "id":4,
+            "name": "Nhan",
+            "employeeID": "12345",
+            "department": "Operation",
+            "position": "Dev",
+            "email": "nhan.nnt@kyanon.digital"
+        },
+        {
+            "id":5,
+            "name": "Nhan",
+            "employeeID": "12345",
+            "department": "Engineering",
+            "position": "Dev",
+            "email": "nhan.nnt@kyanon.digital"
+        }
+    ]
+}
