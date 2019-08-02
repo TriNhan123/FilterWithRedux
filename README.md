@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Demo: https://filterwithredux.nhannnt.now.sh/#/
-## Slides explaining the Demo code: https://filterwithredux.nhannnt.now.sh/#/
+## Slides explaining the Demo code: https://docs.google.com/presentation/d/1LlMm3bs0YAyf_zJhO8nQBMFVAlTZWpWYZpcaxwlUXfA/edit#slide=id.p
 ## Available Scripts
 
 In the project directory, you can run:
