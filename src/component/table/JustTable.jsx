@@ -17,14 +17,15 @@ const mapDispatchToProps = dispatch => ({
 });
 
 function JustTable({department, options}) {
+  
   const departmentFilter = department ? data.rows.filter(row => row.department === department) : data.rows;
   
   for (let index = 0; index < data.rows.length; index ++) {
     if (!options.includes(data.rows[index].department)) {
-      options.push(data.rows[index].department);
+      setOptions(options.push(data.rows[index].department));
     }
   }
-
+  console.log(options)
   return (
     <React.Fragment>
       <Table size="small">

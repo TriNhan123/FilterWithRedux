@@ -6,7 +6,6 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import { connect } from "react-redux";
 import { setDepartment } from '../../actions/setDepartment';
-import { clearDepartment } from '../../actions/clearDepartment';
 
 const useStyles = makeStyles(theme => ({
   button: {
@@ -26,13 +25,11 @@ const mapStateToProps = state => ({
 }); 
 const mapDispatchToProps = dispatch => ({
     setDepartment: (department) => dispatch(setDepartment(department)),
-    clearDepartment:() => dispatch(clearDepartment())
 });
 
 
 function Filters({department, setDepartment, options}) {
   const classes = useStyles();
-//   const [department, setDepartment] = React.useState('');
   const [open, setOpen] = React.useState(false);
 
   function handleChange(event) {
@@ -68,7 +65,7 @@ function Filters({department, setDepartment, options}) {
             id: 'demo-controlled-open-select',
           }}>
           
-          <MenuItem value=""> <em>None</em> </MenuItem>
+          <MenuItem value=""> <em>None</em></MenuItem>
           {options.map(option => (
             <MenuItem key = {option} value= {option}> {option} </MenuItem>
           ))}
